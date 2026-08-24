@@ -1,0 +1,22 @@
+{
+  "flowInputNode": {
+    "nodeName": "FlowInputNode"
+  },
+  "tests": [
+    {
+      "id": "bug-report-test",
+      "prompt": "My application crashes when I click the login button. I am using Chrome on macOS.",
+      "expected": "A bug report is created successfully and the response contains a ticketId and status OPEN."
+    },
+    {
+      "id": "platform-question-test",
+      "prompt": "How do I track my order?",
+      "expected": "Once the order ships, the customer receives a tracking link by email. Customers with an account can also find tracking under My Orders."
+    },
+    {
+      "id": "other-request-test",
+      "prompt": "I want to give feedback about your customer service.",
+      "expected": "The customer is politely directed to human customer support at 1-800-123-4567."
+    }
+  ]
+}

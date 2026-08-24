@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "id": "bug-report-complete",
+      "prompt": "My application crashes when I click the Login button. It happens every time after I enter my username and password and click Login. I am using Chrome 151 on macOS on a Mac laptop.",
+      "expected": "The assistant should recognize this as a bug report, use the provided description, reproduction steps, and environment to create a bug report, and return the ticket ID."
+    },
+    {
+      "id": "platform-covered-order-tracking",
+      "prompt": "How do I track my order?",
+      "expected": "The assistant should answer using only the embedded FAQ. It should explain that once the order ships, a tracking link is emailed, and customers with an account can find tracking under My Orders."
+    },
+    {
+      "id": "platform-uncovered-bitcoin",
+      "prompt": "Do you accept Bitcoin as a payment method?",
+      "expected": "The assistant should not infer or invent whether Bitcoin is accepted. Because the FAQ does not explicitly answer this question, it should direct the customer to human support at 1-800-123-4567."
+    },
+    {
+      "id": "other-request-feedback",
+      "prompt": "I want to give feedback about your customer service.",
+      "expected": "The assistant should classify this as an other request and direct the customer to human support at 1-800-123-4567."
+    }
+  ]
+}
