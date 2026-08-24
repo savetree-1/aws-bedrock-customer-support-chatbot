@@ -63,7 +63,7 @@ Detailed metrics and observations are documented in [EVALUATION.md](EVALUATION.m
 | 1.1 | Full classification/routing flow | evidence/1.1_full_flow.png | Complete |
 | 1.2 | Classifier prompt | evidence/1.2_classifier_prompt.png | Complete |
 | 1.3 | Condition expressions | evidence/1.3_condition_expressions.png | Complete |
-| 2.1.1 | Bug-report system prompt | evidence/2.1.1_system_prompt_bug_rules.png | Complete |
+| 2.1.1 | Bug-report system prompt | evidence/2.1.1a_system_prompt_bug_rules.png<br>evidence/2.1.1b_system_prompt_bug_rules.png<br>evidence/2.1.1c_system_prompt_bug_rules.png | Complete |
 | 2.1.2 | Bug collection + tool call | evidence/2.1.2_bug_report_chat.png | Complete |
 | 2.1.3 | DynamoDB ticket | evidence/2.1.3_dynamodb_ticket.png | Complete |
 | 3.1.1 | FAQ Prompt | evidence/3.1.1_faq_prompt.png | Complete |
@@ -97,7 +97,9 @@ project/
 │   ├── 1.1_full_flow.png
 │   ├── 1.2_classifier_prompt.png
 │   ├── 1.3_condition_expressions.png
-│   ├── 2.1.1_system_prompt_bug_rules.png
+│   ├── 2.1.1a_system_prompt_bug_rules.png
+│   ├── 2.1.1b_system_prompt_bug_rules.png
+│   ├── 2.1.1c_system_prompt_bug_rules.png
 │   ├── 2.1.2_bug_report_chat.png
 │   ├── 2.1.3_dynamodb_ticket.png
 │   ├── 3.1.1_faq_prompt.png
