@@ -70,9 +70,9 @@ Detailed metrics and observations are documented in [EVALUATION.md](EVALUATION.m
 | 3.1.2 | Covered FAQ | evidence/3.1.2_covered_faq.png | Complete |
 | 3.1.3 | Uncovered FAQ | evidence/3.1.3_uncovered_faq.png | Complete |
 | 3.1.4 | Other Request | evidence/3.1.4_other_request.png | Complete |
-| 4.1 | Test suite | starter/flow-tests.json | Complete |
+| 4.1 | Test suite | evidence/4.1_flow_tests.png | Complete |
 | 4.2 | Evaluation dataset | starter/output_eval_dataset_agentcore_final.jsonl | Complete |
-| 4.3 | Bedrock Evaluation | evidence/4.1_bedrock_evaluation.png | Complete |
+| 4.3 | Bedrock Evaluation | evidence/4.3_bedrock_evaluation.png | Complete |
 | 4.4 | Evaluation observation | EVALUATION.md | Complete |
 
 ## Project Structure
@@ -106,7 +106,8 @@ project/
 │   ├── 3.1.2_covered_faq.png
 │   ├── 3.1.3_uncovered_faq.png
 │   ├── 3.1.4_other_request.png
-│   └── 4.1_bedrock_evaluation.png
+│   ├── 4.1_flow_tests.png
+│   └── 4.3_bedrock_evaluation.png
 ├── README.md
 └── EVALUATION.md
 ```
